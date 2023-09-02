@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    margin-left: auto;
+    gap: 15px;
+}
+
+.container {
+    background-color: #1F2937;
+
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-second {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content {
+
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.hero {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.buttons {
+    background-color: #3883f6;
+    color: white;
+}
+
+.action-bar {
+    background-color: #3883f6;
+}
