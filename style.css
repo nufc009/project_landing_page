@@ -9,32 +9,33 @@ body {
     background-color: #1F2937;
     font-size: 24px;
     color: #f9faf8;
-    padding: 150px 200px;
+    padding: 0 300px;
+    display: flex;
+    align-items: center;
 }
 
 .links {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 15px;
     margin-left: auto;
 }
 
-.content-one {
+.container {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 50px 300px;
     display: flex;
-    align-items: center
-    justify-content: flex-start;
-    gap: 30px;
-
+    align-items: center;
 }
 
-.content-two {
-    display: flex;
-    flex-direction: column;
-
+.container-two {
+        font-size: 18px;
+        color: #e5e7eb;
 }
+
 
 .placeholder {
     background-color: grey;
@@ -42,11 +43,12 @@ body {
     align-items: center;
 }
 
-.container {
+.content {
+    margin: 20px 0 100px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 52px
+    gap: 60px
 }
 
 .text {
@@ -58,26 +60,17 @@ body {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding: 150px 200px;
-}
-
-.hero-main {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-}
-
-.hero-second {
-    font-size: 18px;
-    color: #e5e7eb;
+    padding: 150px 300px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
-    background-color: #e5e7eb;
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
     font-style: normal;
+    text-align: end;
 }
 
 .button-one {
@@ -103,7 +96,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    margin: 75px 200px;
+    margin: 75px 300px;
     gap: 75px;
 }
 
