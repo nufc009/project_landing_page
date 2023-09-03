@@ -2,14 +2,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 0;
+    margin: auto;
 }
 
 .header {
     background-color: #1F2937;
     font-size: 24px;
     color: #f9faf8;
+    padding: 150px 200px;
 }
 
 .links {
@@ -20,10 +20,6 @@ body {
     justify-content: center;
     gap: 15px;
     margin-left: auto;
-}
-
-.container {
-    display: flex;
 }
 
 .content-one {
@@ -46,17 +42,15 @@ body {
     align-items: center;
 }
 
-.pics {
+.container {
     display: flex;
-    gap: 70px;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    gap: 52px
 }
 
-.information {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-
+.text {
+    text-align: center;
 }
 
 .quote {
@@ -64,6 +58,7 @@ body {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    padding: 150px 200px;
 }
 
 .hero-main {
@@ -87,20 +82,29 @@ body {
 
 .button-one {
     background-color: #3883f6;
+    border-style: none;
     color: white;
+    padding: 5px 20px;
     align-self: flex-start;
 }
 
 .button-two {
     background-color: #3883f6;
+    border-style: groove;
+    border-color: #e5e7eb;
     color: white;
+    padding: 5px 20px;
 }
 
 .action-bar {
     background-color: #3882f6;
+    color: #f9faf8;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
+    margin: 75px 200px;
+    gap: 75px;
 }
 
 .footer {
@@ -110,6 +114,8 @@ body {
     padding: 30px;
     display: flex;
     justify-content: center;
-    width: 100%;
+    margin: 0;
 }
+
+
 
